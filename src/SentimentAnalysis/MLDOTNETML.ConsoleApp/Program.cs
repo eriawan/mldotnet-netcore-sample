@@ -11,7 +11,7 @@ namespace MLDOTNETML.ConsoleApp
     class Program
     {
         //Dataset to use for predictions 
-        private const string DATA_FILEPATH = @"D:\GITHUB_REPO\mldotnet-netcore-sample\src\MyMLConsoleApp\wikipedia-detox-250-line-data.tsv";
+        private const string DATA_FILEPATH = @"wikipedia-detox-250-line-data.tsv";
 
         static void Main(string[] args)
         {

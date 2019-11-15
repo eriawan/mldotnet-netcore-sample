@@ -10,4 +10,9 @@
   <ItemGroup>
     <ProjectReference Include="..\MLDOTNETML.Model\MLDOTNETML.Model.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="wikipedia-detox-250-line-data.tsv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
